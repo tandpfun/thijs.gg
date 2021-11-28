@@ -11,10 +11,21 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      {
+        name: 'description',
+        content:
+          "Hey there! I'm a fullstack developer, designer, moderator, and high school student. I'm interested in development, moderation, and building thriving online communities.",
+      },
+      {
+        name: 'og:description',
+        content:
+          "Hey there! I'm a fullstack developer, designer, moderator, and high school student. I'm interested in development, moderation, and building thriving online communities.",
+      },
+      { name: 'og:title', content: 'Thijs [he/they]' },
+      { name: 'og:image', content: '/favicon.png' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -30,11 +41,10 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -51,5 +61,12 @@ export default {
 
   colorMode: {
     classSuffix: '',
+  },
+
+  fontawesome: {
+    icons: {
+      solid: true,
+      brands: true,
+    },
   },
 }

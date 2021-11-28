@@ -13,7 +13,9 @@
       <div class="ml-4 flex flex-col justify-center">
         <h2 class="text-lg font-bold flex items-center">
           {{ name }}
-          <span v-if="year" class="text-sm font-normal ml-4">[{{ year }}]</span>
+          <span v-if="year" class="text-sm font-normal ml-4 hidden sm:block"
+            >[{{ year }}]</span
+          >
         </h2>
         <p class="text-sm">
           {{ description }}

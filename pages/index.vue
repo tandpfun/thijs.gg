@@ -9,12 +9,19 @@
         />
       </div>
 
-      <AboutMe />
+      <About />
       <Divider />
       <Projects />
       <Divider />
       <Donations />
       <Divider />
+      <Contact />
+      <Divider />
+
+      <div class="copyright text-center mb-8">
+        &copy; {{ new Date().getFullYear() }} Coding#0001 | Built with NuxtJS &
+        TailwindCSS
+      </div>
     </div>
   </div>
 </template>
