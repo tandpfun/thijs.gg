@@ -45,6 +45,7 @@ export default {
         {
           icon: 'https://mapped.thijs.gg/favicon.ico',
           name: 'Mapped',
+          link: 'https://mapped.thijs.gg',
           year: '2021',
           description:
             'View multiple datasets, like LGBTQ+ rights, sexuality education, and more, on a map of the US.',
@@ -53,6 +54,7 @@ export default {
         {
           icon: 'https://uploadr.thijs.gg/favicon.ico',
           name: 'Uploadr',
+          link: 'https://uploadr.thijs.gg',
           year: '2021',
           description:
             'Website to quickly and easily paste, drag, or select an image to upload to Imgur!',
