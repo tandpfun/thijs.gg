@@ -30,7 +30,6 @@ export default {
       }
 
       const favicon = document.querySelectorAll('[rel="icon"]')[0]
-      console.log(favicon)
       favicon.href = favicon.href.includes('favicon')
         ? '/redpanda.png'
         : 'favicon.png'
