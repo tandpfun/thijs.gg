@@ -4,7 +4,7 @@
 }
 
 .dark {
-  --background: #2f3437;
+  --background: #191919;
   --text: #ebf4f1;
 }
 
@@ -12,4 +12,17 @@ body {
   background-color: var(--background);
   color: var(--text);
   transition: background-color 0.3s;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.25s;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.slide-enter,
+.slide-leave-to {
+  opacity: 0;
+  max-height: 0px;
 }
