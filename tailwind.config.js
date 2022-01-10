@@ -9,6 +9,7 @@ module.exports = {
         'bg-yellow-500',
         'bg-pink-500',
         'bg-red-500',
+        'bg-green-500',
       ],
     },
   },
