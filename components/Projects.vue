@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1 class="mt-4 text-2xl font-bold">Projects</h1>
+    <h1 class="mt-4 text-2xl font-bold">Major Projects</h1>
     <div class="flex flex-col mt-2">
       <Project
-        v-for="project in projects"
+        v-for="project in majorProjects"
         :key="project.name"
         :icon="project.icon"
         :name="project.name"
@@ -13,6 +13,26 @@
         :color="project.color"
       />
     </div>
+    <button class="mt-6" @click="showAllProjects = !showAllProjects">
+      <font-awesome-icon
+        :icon="['fas', showAllProjects ? 'chevron-up' : 'chevron-down']"
+      />
+      Show All Projects
+    </button>
+    <transition name="slide">
+      <div v-if="showAllProjects" class="flex flex-col mt-2">
+        <Project
+          v-for="project in projects"
+          :key="project.name"
+          :icon="project.icon"
+          :name="project.name"
+          :link="project.link"
+          :year="project.year"
+          :description="project.description"
+          :color="project.color"
+        />
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -20,7 +40,44 @@
 export default {
   data() {
     return {
+      showAllProjects: false,
       projects: [
+        {
+          icon: 'https://mapped.thijs.gg/favicon.ico',
+          name: 'Mapped',
+          year: '2021',
+          description:
+            'View multiple datasets, like LGBTQ+ rights, sexuality education, and more, on a map of the US.',
+          color: 'green-500',
+        },
+        {
+          icon: 'https://uploadr.thijs.gg/favicon.ico',
+          name: 'Uploadr',
+          year: '2021',
+          description:
+            'Website to quickly and easily paste, drag, or select an image to upload to Imgur!',
+          color: 'purple-500',
+        },
+        {
+          icon: 'https://nftavatar.thijs.gg/favicon.png',
+          name: 'NFT Avatar',
+          link: 'https://nftavatar.thijs.gg',
+          year: '2021',
+          description:
+            'Create fake Twitter NFT avatars by giving your profile picture a hexagonal shape.',
+          color: 'blue-500',
+        },
+        {
+          icon: 'https://cdn.discordapp.com/avatars/815258667602804767/82f941c8ac0baedb0d485bd424c788d8.png?size=512',
+          name: 'FactCheqr',
+          link: 'https://github.com/tandpfun/discord-factcheck-bot',
+          year: '2021',
+          description:
+            '🏆 1st place in LancerHacks Hackathon - Helps prevent the spread of misinformation in Discord servers. [outdated/unmaintained]',
+          color: 'red-500',
+        },
+      ],
+      majorProjects: [
         {
           icon: 'tod.png',
           name: 'Truth or Dare',

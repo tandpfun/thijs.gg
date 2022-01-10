@@ -7,7 +7,13 @@
   >
     <div class="flex flex-row items-center">
       <img
-        :src="require(`@/assets/img/${icon}`)"
+        :src="
+          icon
+            ? icon.startsWith('https')
+              ? icon
+              : require(`@/assets/img/${icon}`)
+            : null
+        "
         class="w-12 h-12 object-contain"
       />
       <div class="ml-4 flex flex-col justify-center">
