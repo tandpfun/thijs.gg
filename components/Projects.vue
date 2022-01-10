@@ -15,7 +15,9 @@
     </div>
     <button class="mt-6" @click="showAllProjects = !showAllProjects">
       <font-awesome-icon
-        :icon="['fas', showAllProjects ? 'chevron-up' : 'chevron-down']"
+        :icon="['fas', 'chevron-down']"
+        class="transition duration-300 transform"
+        :class="showAllProjects ? '-rotate-180' : ''"
       />
       Show All Projects
     </button>
