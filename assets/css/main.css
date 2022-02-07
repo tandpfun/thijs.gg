@@ -16,8 +16,8 @@ body {
 
 .slide-enter-active,
 .slide-leave-active {
-  transition: all 0.25s;
-  max-height: 500px;
+  transition: all 0.3s;
+  max-height: 800px;
   overflow: hidden;
 }
 
