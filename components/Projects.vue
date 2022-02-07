@@ -72,6 +72,15 @@ export default {
           color: 'blue-500',
         },
         {
+          icon: 'desmosautosave.png',
+          name: 'Desmos Auto Save',
+          link: 'https://chrome.google.com/webstore/detail/desmos-auto-save/cijdbpjdomlnlhlbjajbpofgdgkhfcif',
+          year: '2021',
+          description:
+            'Automatically save your Desmos projects! Never lose your work again.',
+          color: 'green-500',
+        },
+        {
           icon: 'https://cdn.discordapp.com/avatars/815258667602804767/82f941c8ac0baedb0d485bd424c788d8.png?size=512',
           name: 'FactCheqr',
           link: 'https://github.com/tandpfun/discord-factcheck-bot',
