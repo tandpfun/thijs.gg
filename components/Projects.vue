@@ -97,7 +97,7 @@ export default {
           link: 'https://truthordarebot.xyz',
           year: '2021+',
           description:
-            'An open-source Discord bot that allows users to play Truth or Dare! Used more than 600,000 times per day in over 300,000 communities.',
+            'An open-source Discord bot that allows users to play Truth or Dare! Used more than 800,000 times per day in over 350,000 communities.',
           color: 'indigo-500',
         },
         {
