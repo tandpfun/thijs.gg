@@ -1,6 +1,6 @@
 <template>
   <button
-    class="w-10 h-10 bg-gray-700 dark:bg-gray-200 rounded-md text-gray-200 dark:text-gray-700 items-center flex justify-center transition duration-200"
+    class="w-10 h-10 bg-gray-800 dark:bg-gray-200 rounded-md text-gray-200 dark:text-gray-800 items-center flex justify-center transition duration-200"
     @click="toggleTheme"
   >
     <Sun v-if="$colorMode.preference === 'light'" class="w-6" />

@@ -48,75 +48,84 @@ export default {
           icon: 'https://mapped.thijs.gg/favicon.ico',
           name: 'Mapped',
           link: 'https://mapped.thijs.gg',
-          year: '2021',
+          year: 'Dec 2021',
           description:
             'View multiple datasets, like LGBTQ+ rights, sexuality education, and more, on a map of the US.',
-          color: 'green-500',
+          color: 'bg-green-500',
         },
         {
           icon: 'https://uploadr.thijs.gg/favicon.ico',
           name: 'Uploadr',
           link: 'https://uploadr.thijs.gg',
-          year: '2021',
+          year: 'Dec 2021',
           description:
             'Website to quickly and easily paste, drag, or select an image to upload to Imgur!',
-          color: 'purple-500',
+          color: 'bg-purple-500',
         },
         {
           icon: 'https://nftavatar.thijs.gg/favicon.png',
           name: 'NFT Avatar',
           link: 'https://nftavatar.thijs.gg',
-          year: '2021',
+          year: 'Nov 2021',
           description:
             'Create fake Twitter NFT avatars by giving your profile picture a hexagonal shape.',
-          color: 'blue-500',
+          color: 'bg-blue-500',
         },
         {
           icon: 'desmosautosave.png',
           name: 'Desmos Auto Save',
           link: 'https://chrome.google.com/webstore/detail/desmos-auto-save/cijdbpjdomlnlhlbjajbpofgdgkhfcif',
-          year: '2021',
+          year: 'Sep 2021',
           description:
             'Automatically save your Desmos projects! Never lose your work again.',
-          color: 'green-500',
-        },
-        {
-          icon: 'https://cdn.discordapp.com/avatars/815258667602804767/82f941c8ac0baedb0d485bd424c788d8.png?size=512',
-          name: 'FactCheqr',
-          link: 'https://github.com/tandpfun/discord-factcheck-bot',
-          year: '2021',
-          description:
-            '🏆 1st place in LancerHacks Hackathon - Helps prevent the spread of misinformation in Discord servers. [outdated/unmaintained]',
-          color: 'red-500',
-        },
-      ],
-      majorProjects: [
-        {
-          icon: 'tod.png',
-          name: 'Truth or Dare',
-          link: 'https://truthordarebot.xyz',
-          year: '2021+',
-          description:
-            'An open-source Discord bot that allows users to play Truth or Dare! Used more than 800,000 times per day in over 350,000 communities.',
-          color: 'indigo-500',
-        },
-        {
-          icon: 'channelbot.png',
-          name: 'ChannelBot',
-          link: 'https://channelbot.xyz',
-          year: '2018+',
-          description:
-            'A Discord bot that helps users build and manage their online communities! Used in over 25,000 communities.',
-          color: 'blue-400',
+          color: 'bg-green-500',
         },
         {
           icon: 'discordtools.png',
           name: 'DiscordTools',
           link: 'https://discordtools.io',
-          year: '2020+',
+          year: 'Jun 2021',
           description:
             'An open-source Discord utility website for power users! Get your server count, lookup ids, and more!',
-          color: 'indigo-600',
+          color: 'bg-indigo-600',
+        },
+        {
+          icon: 'https://cdn.discordapp.com/avatars/815258667602804767/82f941c8ac0baedb0d485bd424c788d8.png?size=512',
+          name: 'FactCheqr',
+          link: 'https://github.com/tandpfun/discord-factcheck-bot',
+          year: 'Feb 2021',
+          description:
+            '🏆 1st place in LancerHacks Hackathon - Helps prevent the spread of misinformation in Discord servers. [outdated/unmaintained]',
+          color: 'bg-red-500',
+        },
+      ],
+      majorProjects: [
+        {
+          icon: 'https://skillicons.dev/favicon.png',
+          name: 'Skill Icons',
+          link: 'https://skillicons.dev',
+          year: 'Mar 2021',
+          description:
+            'Showcase your skills on your GitHub or resumé with ease! Beautiful skill badges which can be embedded on any site.',
+          color: 'bg-purple-500',
+        },
+        {
+          icon: 'tod.png',
+          name: 'Truth or Dare',
+          link: 'https://truthordarebot.xyz',
+          year: 'Oct 2021',
+          description:
+            'An open-source Discord bot that allows users to play Truth or Dare! Used more than 800,000 times per day in over 350,000 communities.',
+          color: 'bg-indigo-500',
+        },
+        {
+          icon: 'channelbot.png',
+          name: 'ChannelBot',
+          link: 'https://channelbot.xyz',
+          year: 'May 2018',
+          description:
+            'A Discord bot that helps users build and manage their online communities! Used in over 25,000 communities.',
+          color: 'bg-blue-400',
         },
       ],
     }

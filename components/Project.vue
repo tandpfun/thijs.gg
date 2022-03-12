@@ -3,7 +3,7 @@
     :href="link"
     target="_blank"
     class="flex-1 bg-opacity-30 p-4 my-2 rounded-md hover:scale-105 transform ease-in-out duration-300"
-    :class="`bg-${color}`"
+    :class="color"
   >
     <div class="flex flex-row items-center">
       <img
@@ -56,7 +56,7 @@ export default {
     },
     color: {
       type: String,
-      default: 'white',
+      default: 'bg-white',
     },
   },
 }

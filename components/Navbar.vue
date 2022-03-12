@@ -5,7 +5,7 @@
         <h1 class="flex items-center">
           <img
             src="~/assets/img/avatar.png"
-            class="w-10 h-10 rounded-md inline avatar"
+            class="w-10 h-10 rounded-lg inline avatar"
             @click="toggleFurry"
           />
           <span class="ml-2 font-bold text-lg">thijs.gg</span>

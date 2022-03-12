@@ -5,7 +5,7 @@
         <img
           src="~/assets/img/avatar.png"
           alt="I'm a red panda!"
-          class="w-32 h-32 rounded-xl inline avatar"
+          class="w-32 h-32 rounded-3xl inline avatar"
         />
       </div>
 
