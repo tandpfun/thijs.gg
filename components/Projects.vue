@@ -115,7 +115,7 @@ export default {
           link: 'https://truthordarebot.xyz',
           year: 'Oct 2021',
           description:
-            'An open-source Discord bot that allows users to play Truth or Dare! Used more than 1M times per day in over 850,000 communities.',
+            'An open-source Discord bot that allows users to connect over Truth or Dare! Used by over 1,000,000 online communities.',
           color: 'bg-indigo-500',
         },
         {
@@ -124,7 +124,7 @@ export default {
           link: 'https://channelbot.xyz',
           year: 'May 2018',
           description:
-            'A Discord bot that helps users build and manage their online communities! Used in over 50,000 communities.',
+            'A Discord bot that helps users build and manage their online communities! Used by over 50,000 online communities.',
           color: 'bg-blue-400',
         },
       ],
