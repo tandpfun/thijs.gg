@@ -27,9 +27,7 @@
       </div>
     </h1>
     <p class="mt-4">
-      Hey there! I'm a fullstack developer, designer, moderator, and high school
-      student. I'm interested in development, moderation, and building thriving
-      online communities.
+      Hey there! I'm a maker and high school student from the Bay Area. I'm super interested in code, electronics, and public transportation.
     </p>
 
     <img
