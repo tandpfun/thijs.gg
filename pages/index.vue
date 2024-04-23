@@ -3,8 +3,8 @@
     <div class="max-w-3xl px-8 mt-24 mx-auto">
       <div>
         <img
-          src="~/assets/img/avatar.png"
-          alt="I'm a red panda!"
+          src="~/assets/img/redpanda.png"
+          alt="Image of a red panda"
           class="w-32 h-32 rounded-3xl inline avatar"
         />
       </div>
