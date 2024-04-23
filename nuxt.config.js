@@ -22,10 +22,10 @@ export default {
         content:
           "Hey there! I'm a maker and high school student from the Bay Area. I'm super interested in code, electronics, and public transportation.",
       },
-      { name: 'og:title', content: 'Thijs [he/they]' },
-      { name: 'og:image', content: '/favicon.png' },
+      { name: 'og:title', content: 'Thijs [he/him]' },
+      { name: 'og:image', content: '/redpanda.png' },
     ],
-    link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    link: [{ rel: 'icon', type: 'image/png', href: '/redpanda.png' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
