@@ -4,7 +4,7 @@
       <div class="select-none">
         <h1 class="flex items-center">
           <img
-            src="~/assets/img/redpanda.png"
+            src="/redpanda.png"
             class="w-10 h-10 rounded-lg inline avatar"
           />
           <span class="ml-2 font-bold text-lg">thijs.gg</span>
